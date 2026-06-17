@@ -11,6 +11,16 @@ body {
   height: 100vh;
 }
 
+nav {
+  width:100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 32px;
+  background: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
 nav > ul {
   display: flex;
   flex-wrap: wrap;
@@ -141,6 +151,9 @@ main > section:not(:target) {
   .img img {
     padding-bottom: 0;
   }
+  main > section:not(:target) {
+  display: none;
+  }
 
 }
 
@@ -172,6 +185,10 @@ main > section:not(:target) {
   .img img {
     padding-bottom: 0;
   }
+
+  main > section:not(:target) {
+  display: none;
+  }
 }
 
 @media (min-width: 1720px) {
@@ -199,5 +216,9 @@ main > section:not(:target) {
 
   .img img {
     padding-bottom: 0;
+  }
+
+  main > section:not(:target) {
+  display: none;
   }
 }
