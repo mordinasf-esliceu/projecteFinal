@@ -136,13 +136,13 @@ main > section:not(:target) {
   }
 }
 @media (min-width: 600px){
-  #image {
+  #image:target {
     display: flex;
     flex-wrap: wrap;
     margin: 3vw;
   }
 
-  #audio {
+  #audio:target {
     display: flex;
     flex-wrap: wrap;
     margin: 3vw;
@@ -158,14 +158,14 @@ main > section:not(:target) {
 }
 
 @media (min-width: 1024px){
-  #image {
+  #image:target {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
 
   }
 
-  #audio {
+  #audio:target {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
@@ -192,13 +192,13 @@ main > section:not(:target) {
 }
 
 @media (min-width: 1720px) {
-  #image {
+  #image:target {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
   }
 
-  #audio {
+  #audio:target {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
