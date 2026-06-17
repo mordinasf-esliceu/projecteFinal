@@ -56,7 +56,7 @@ a:hover {
   margin-top: 5vh;
 }
 
-.galeria .img {
+#image .img {
   align-self: center;
   width: 100vw;
   align-content: center;
@@ -67,6 +67,7 @@ a:hover {
   width: 100%;
   align-self: center;
   justify-self: center;
+  max-width: 500px;
   object-fit: cover;
   object-position: bottom;
   border: none;
