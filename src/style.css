@@ -68,7 +68,8 @@ a:hover {
   align-self: center;
   justify-self: center;
   max-width: 500px;
-  max-height: 300px;
+  max-height: 500px;
+  height: auto;
   object-fit: cover;
   object-position: bottom;
   border: none;
