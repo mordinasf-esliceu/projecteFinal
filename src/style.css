@@ -196,6 +196,11 @@ main > section:not(:target) {
     margin: 3vw;
   }
 
+  #video .img {
+    width: 100vw;
+    margin: 0;
+  }
+
   .img img {
     padding-bottom: 0;
   }
@@ -237,7 +242,7 @@ main > section:not(:target) {
   }
 
   #video .img {
-    width: 33.25vw;
+    width: 100vw;
     margin: 0;
   }
 
@@ -280,7 +285,7 @@ main > section:not(:target) {
   }
 
   #video .img {
-    width: 22.3vw;
+    width: 100vw;
     margin: 0;
   }
 
