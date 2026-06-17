@@ -238,6 +238,7 @@ main > section:not(:target) {
 
   #video .img {
     width: 33.25vw;
+    margin: 0;
   }
 
   .img img {
@@ -280,6 +281,7 @@ main > section:not(:target) {
 
   #video .img {
     width: 22.3vw;
+    margin: 0;
   }
 
   .img img {
