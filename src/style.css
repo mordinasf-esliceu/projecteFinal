@@ -25,7 +25,7 @@ nav > ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  height: 10vh;
+  height: 6vh;
 }
 
 nav > ul > li {
@@ -34,10 +34,13 @@ nav > ul > li {
   width: 20vw;
 }
 
-#clock {
+#home {
   text-align: center;
   justify-content: center;
   justify-self: center;
+  text-align: left;
+  margin-right: 20vw;
+  margin-left: 20vw;
   margin-top: 25vh;
 }
 
