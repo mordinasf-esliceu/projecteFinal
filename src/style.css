@@ -32,11 +32,17 @@ nav > ul > li {
   flex: 1 1 auto;
   text-align: center;
   width: 20vw;
-  border: outset;
-  border-color: #0c1b49;
+}
+
+a {
+  font-size: x-large;
 }
 
 a:focus {
+  color: #f51919;
+}
+
+a:hover {
   color: #f51919;
 }
 
