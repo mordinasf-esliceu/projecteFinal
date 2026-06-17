@@ -190,6 +190,12 @@ main > section:not(:target) {
     margin: 3vw;
   }
 
+  #video:target {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vw;
+  }
+
   .img img {
     padding-bottom: 0;
   }
@@ -214,12 +220,24 @@ main > section:not(:target) {
 
   }
 
+  #video:target {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+
+  }
+
   #image .img {
     width: 46.25vw;
     margin: 1vw;
   }
 
   #audio .img {
+    width: 46.25vw;
+    margin: 1vw;
+  }
+
+  #video .img {
     width: 46.25vw;
     margin: 1vw;
   }
@@ -246,12 +264,23 @@ main > section:not(:target) {
     margin: 1vw;
   }
 
+  #video:target {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+  }
+
   #image .img {
     width: 30.3vw;
     margin: 1vw;
   }
 
   #audio .img {
+    width: 30.3vw;
+    margin: 1vw;
+  }
+
+  #video .img {
     width: 30.3vw;
     margin: 1vw;
   }
