@@ -234,12 +234,10 @@ main > section:not(:target) {
 
   #audio .img {
     width: 46.25vw;
-    margin: 1vw;
   }
 
   #video .img {
     width: 36.25vw;
-    margin: 1vw;
   }
 
   .img img {
@@ -282,7 +280,6 @@ main > section:not(:target) {
 
   #video .img {
     width: 28.3vw;
-    margin: 1vw;
   }
 
   .img img {
