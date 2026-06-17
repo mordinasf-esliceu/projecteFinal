@@ -41,34 +41,28 @@ nav > ul > li {
   text-align: left;
   margin-right: 20vw;
   margin-left: 20vw;
-  margin-top: 25vh;
+  margin-top: 5vh;
 }
 
 #alarm {
   text-align: center;
   justify-content: center;
   justify-self: center;
-  margin-top: 30vh;
+  margin-top: 5vh;
 }
 
 #stopwatch {
   text-align: center;
   justify-content: center;
   justify-self: center;
-  margin-top: 25vh;
+  margin-top: 5vh;
 }
 
 #timer {
   text-align: center;
   justify-content: center;
   justify-self: center;
-  margin-top: 20vh;
-}
-
-button{
-  border-radius: 50px;
-  background-color: #c8d3f1;
-  margin-top: 2vh;
+  margin-top: 5vh;
 }
 
 time {
