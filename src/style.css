@@ -125,3 +125,79 @@ main > section:not(:target) {
     color: #0c1b49;
   }
 }
+@media (min-width: 600px){
+  #image {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vw;
+  }
+
+  #audio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vw;
+  }
+
+  .img img {
+    padding-bottom: 0;
+  }
+
+}
+
+@media (min-width: 1024px){
+  #image {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+
+  }
+
+  #audio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+
+  }
+
+  #image .img {
+    width: 46.25vw;
+    margin: 1vw;
+  }
+
+  #audio .img {
+    width: 46.25vw;
+    margin: 1vw;
+  }
+
+  .img img {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1720px) {
+  #image {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+  }
+
+  #audio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+  }
+
+  #image .img {
+    width: 30.3vw;
+    margin: 1vw;
+  }
+
+  #audio .img {
+    width: 30.3vw;
+    margin: 1vw;
+  }
+
+  .img img {
+    padding-bottom: 0;
+  }
+}
