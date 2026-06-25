@@ -16,13 +16,9 @@
     </nav>
     <main>
       <section id="menu">
-        <div>
-          <h1>Restaurant</h1>
-          <p></p>
-        </div>
-        <div>
-          <h2>Entrants</h2>
-        </div>
+        <h1>Restaurant</h1>
+        
+        <h2>Entrants</h2>
         <div class="img">
           <img src="./src/assets/entrants/boquerons.png" alt="Boquerons frits">
           <p>Boquerons frits</p>
@@ -59,9 +55,7 @@
           <img src="./src/assets/entrants/mejillons.png" alt="Mejillons a la marinera">
           <p>Mejillons a la marinera</p>
         </div>
-        <div>
-          <h2>Carn</h2>
-        </div>
+        <h2>Carn</h2>
         <div class="img">
           <img src="./src/assets/carn/conill_amb_ceba.png" alt="Conill amb ceba">
           <p>Conill amb ceba</p>
@@ -98,9 +92,7 @@
           <img src="./src/assets/carn/rellom_de_vadella.png" alt="Rellom de vadella">
           <p>Rellom de vadella</p>
         </div>
-        <div>
-          <h2>Peix</h2>
-        </div>
+        <h2>Peix</h2>
         <div class="img">
           <img src="./src/assets/peix/bacallar_a_la_mallorquina.png" alt="Bacallar a la mallorquina">
           <p>Bacallar a la mallorquina</p>
@@ -137,9 +129,7 @@
           <img src="./src/assets/peix/salmó_a_la_planxa.png" alt="Salmó a la planxa">
           <p>Salmó a la planxa</p>
         </div>
-        <div>
-          <h2>Begudes</h2>
-        </div>
+        <h2>Begudes</h2>
         <div class="img">
           <img src="./src/assets/begudes/aigua_litre.png" alt="Aigua 1L">
           <p>Aigua 1L</p>
@@ -178,7 +168,16 @@
         </div>
       </section>
       <section id="reserva">
-        
+        <form action="./index.html" method="get">
+            <h1>Formulari de reserva</h1>
+            <h3>Per favor introduiu les vostres dades</h3>
+            <label for="nom">Nom: </label><input maxlength="25" placeholder="Nom" required type="text" name="nom" id="nom"><br>
+            <label for="cognom">Cognoms: </label><input maxlength="25" placeholder="Cognoms" required type="text" name="cognom" id="cognom"><br>
+            <label for="telefon">Num. Telèfon: </label><input minlength="9" maxlength="9" placeholder="Telèfon" required type="text" name="telefon" id="telefon"><br>
+            <label for="dataReserva">Data de la reserva: </label><input type="datetime-local" name="dataReserva" id="dataReserva"><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
       </section>
     </main>
   </body>
