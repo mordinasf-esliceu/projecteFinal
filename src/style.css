@@ -46,7 +46,7 @@ a:hover {
   color: #f51919;
 }
 
-#home {
+#menu {
   text-align: center;
   justify-content: center;
   justify-self: center;
@@ -83,27 +83,8 @@ a:hover {
   font-size: x-large;
 }
 
-.img audio{
-  align-self: center;
-  justify-self: center;
-  width: 100%;
-}
 
-#image {
-  text-align: center;
-  justify-content: center;
-  justify-self: center;
-  margin-top: 5vh;
-}
-
-#audio {
-  text-align: center;
-  justify-content: center;
-  justify-self: center;
-  margin-top: 5vh;
-}
-
-#video {
+#reserva {
   text-align: center;
   justify-content: center;
   justify-self: center;
@@ -120,12 +101,6 @@ input {
   font-size: 4vw;
   border-radius: 55px;
   padding: 0.5vw;
-}
-
-.controls > * {
-  width: 6vw;
-  font-size: xx-large;
-  text-align: center;
 }
 
 main {
@@ -146,10 +121,6 @@ main > section:not(:target) {
     background: #121212e8;
   }
 
-  time {
-    color: #809fff;
-  }
-
   input {
     background-color: #c8d3f1;
   }
@@ -165,10 +136,6 @@ main > section:not(:target) {
     background: #eeeeee;
   }
 
-  time {
-    color: #0c1b49;
-  }
-
   input {
     background-color: #a7b4d6;
   }
@@ -178,27 +145,10 @@ main > section:not(:target) {
   }
 }
 @media (min-width: 600px){
-  #image:target {
+  #menu:target {
     display: flex;
     flex-wrap: wrap;
     margin: 3vw;
-  }
-
-  #audio:target {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3vw;
-  }
-
-  #video:target {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3vw;
-  }
-
-  #video .img {
-    width: 90vw;
-    margin: 0;
   }
 
   .img img {
@@ -211,39 +161,16 @@ main > section:not(:target) {
 }
 
 @media (min-width: 1024px){
-  #image:target {
+  #menu:target {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
 
   }
 
-  #audio:target {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1vw;
-
-  }
-
-  #video:target {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1vw;
-
-  }
-
-  #image .img {
+  #menu .img {
     width: 46.25vw;
     margin: 1vw;
-  }
-
-  #audio .img {
-    width: 46.25vw;
-  }
-
-  #video .img {
-    width: 90vw;
-    margin: 0;
   }
 
   .img img {
@@ -256,37 +183,15 @@ main > section:not(:target) {
 }
 
 @media (min-width: 1720px) {
-  #image:target {
+  #menu:target {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
   }
 
-  #audio:target {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1vw;
-  }
-
-  #video:target {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1vw;
-  }
-
-  #image .img {
+  #menu .img {
     width: 30.3vw;
     margin: 1vw;
-  }
-
-  #audio .img {
-    width: 30.3vw;
-    margin: 1vw;
-  }
-
-  #video .img {
-    width: 90vw;
-    margin: 0;
   }
 
   .img img {
